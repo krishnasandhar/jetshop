@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">JetShop</string>
+    <string name="welcomenote">Hello!! Welcome, You\'re now entering into World of Sports.</string>
+    <string name="shopnote">This is the Ocean of Sports. You can swin anywhere you want </string>
+    <string name="paynote">Just Swipe it and Get it. Pay as a Smart</string>
+    <string name="deliverynote">Skip the Queue and Just Sit in your Home. Your Order will be in your Door</string>
+    <string name="title_home">Home</string>
+    <string name="title_cateogory">Cateogory</string>
+    <string name="title_scan">Scan</string>
+    <string name="title_account">Account</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

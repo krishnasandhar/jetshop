@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/customermainpage_nav"
+    app:startDestination="@+id/nav_customerhome">
+
+    <fragment
+        android:id="@+id/nav_customerhome"
+        android:name="dev.company.jetshop.customer_ui.home.CustomerHomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_customer_home"/>
+    <fragment
+        android:id="@+id/nav_customercateogory"
+        android:name="dev.company.jetshop.customer_ui.cateogory.CustomerCateogoryFragment"
+        android:label="@string/title_cateogory"
+        tools:layout="@layout/fragment_customer_cateogory"/>
+    <fragment
+        android:id="@+id/nav_customerscan"
+        android:name="dev.company.jetshop.customer_ui.scan.CustomerScanFragment"
+        android:label="@string/title_scan"
+        tools:layout="@layout/fragment_customer_scan"/>
+    <fragment
+        android:id="@+id/nav_customeraccount"
+        android:name="dev.company.jetshop.customer_ui.account.CustomerAccountFragment"
+        android:label="@string/title_account"
+        tools:layout="@layout/fragment_customer_account"/>
+</navigation>

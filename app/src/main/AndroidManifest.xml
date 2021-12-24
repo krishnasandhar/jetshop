@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dev.company.jetshop">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/appicon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/appicon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.JetShop">
+        <activity android:name=".customer_ui.payment.MainActivity"/>
+        <activity android:name=".customer_ui.scan.Barcodereader" />
+        <activity android:name=".customer_ui.products.CustomerVolleyballActivity" />
+        <activity android:name=".customer_ui.products.CustomerTennisActivity" />
+        <activity android:name=".customer_ui.products.CustomerSkatingActivity" />
+        <activity android:name=".customer_ui.products.CustomerRunningActivity" />
+        <activity android:name=".customer_ui.products.CustomerRugbyfootballActivity" />
+        <activity android:name=".customer_ui.products.CustomerKitesActivity" />
+        <activity android:name=".customer_ui.products.CustomerHockeyActivity" />
+        <activity android:name=".customer_ui.products.CustomerGymnasticsActivity" />
+        <activity android:name=".customer_ui.products.CustomerGolfActivity" />
+        <activity android:name=".customer_ui.products.CustomerFootballActivity" />
+        <activity android:name=".customer_ui.products.CustomerFishingActivity" />
+        <activity android:name=".customer_ui.products.CustomerDartsActivity" />
+        <activity android:name=".customer_ui.products.CustomerDanceActivity" />
+        <activity android:name=".customer_ui.products.CustomerCyclingActivity" />
+        <activity android:name=".customer_ui.products.CustomerCricketActivity" />
+        <activity android:name=".customer_ui.products.CustomerCarromActivity" />
+        <activity android:name=".customer_ui.products.CustomerBillardsActivity" />
+        <activity android:name=".customer_ui.products.CustomerBaseketballActivity" />
+        <activity android:name=".customer_ui.products.CustomerBodyBuildingActivity" />
+        <activity android:name=".customer_ui.products.CustomerBaseballActivity" />
+        <activity android:name=".customer_ui.products.CustomerBadmintonActivity" />
+        <activity android:name=".customer_ui.products.CustomerBoxingActivity" />
+        <activity android:name=".customer_ui.products.CustomerArcheryActivity" />
+        <activity android:name=".customer_ui.products.CustomerAquagymActivity" />
+        <activity android:name=".customer_ui.main.CustomerMainpage" />
+        <activity android:name=".products.VolleyballActivity" />
+        <activity android:name=".products.TennisActivity" />
+        <activity android:name=".products.SkatingActivity" />
+        <activity android:name=".products.RunningActivity" />
+        <activity android:name=".products.RugbyfootballActivity" />
+        <activity android:name=".products.KitesActivity" />
+        <activity android:name=".products.HockeyActivity" />
+        <activity android:name=".products.GymnasticsActivity" />
+        <activity android:name=".products.GolfActivity" />
+        <activity android:name=".products.FootballActivity" />
+        <activity android:name=".products.FishingActivity" />
+        <activity android:name=".products.DartsActivity" />
+        <activity android:name=".products.DanceActivity" />
+        <activity android:name=".products.CyclingActivity" />
+        <activity android:name=".products.CricketActivity" />
+        <activity android:name=".products.CarromActivity" />
+        <activity android:name=".products.BillardsActivity" />
+        <activity android:name=".products.BaseketBallActivity" />
+        <activity android:name=".products.BaseballActivity" />
+        <activity android:name=".products.BodyBuildingActivity" />
+        <activity android:name=".products.BadmintonActivity" />
+        <activity android:name=".products.BoxingActivity" />
+        <activity android:name=".products.ArcheryActivity" />
+        <activity android:name=".cart.CartActivity" />
+        <activity android:name=".products.AquagymActivity" />
+        <activity android:name=".loginregister.RegisterActivity" />
+        <activity android:name=".loginregister.AccountDetails" />
+        <activity android:name=".ui.main.MainPage" />
+        <activity
+            android:name=".loginregister.LoginActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".slideandsplash.SlideScreen"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".slideandsplash.SplashScreen"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
